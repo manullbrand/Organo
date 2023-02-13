@@ -13,7 +13,5 @@
 .time .colaboradores {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; /*joga os cards que não cabem na mesma linha para a linha de baixo */
-  
-  
+  flex-wrap: wrap;
 }

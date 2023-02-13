@@ -5,17 +5,6 @@ import "./Formulario.css";
 import { useState } from "react";
 
 const Formulario = (props) => {
-  // Não precisa mais dessa lista. Deixei ela dinâmica direto no arquivo App.js
-  // const times = [
-  //   "Programação",
-  //   "Front-End",
-  //   "Data Science",
-  //   "Devops",
-  //   "UX e Design",
-  //   "Mobile",
-  //   "Inovação e Gestão",
-  // ];
-
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
   const [imagem, setImagem] = useState("");
@@ -24,14 +13,14 @@ const Formulario = (props) => {
   const aoSalvar = (evento) => {
     evento.preventDefault();
     console.log("Form foi submetido => ", nome, cargo, imagem, time);
-    //Estou criando um objeto aqui embaixo:
+
     props.aoColaboradorCadastrado({
       nome,
       cargo,
       imagem,
       time,
     });
-    // Limpando os eventos após um cadastro:
+
     setNome("");
     setCargo("");
     setImagem("");

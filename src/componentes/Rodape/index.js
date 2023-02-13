@@ -1,6 +1,5 @@
 import "./Rodape.css";
 
-
 const Rodape = () => {
   return (
     <footer className="footer">
@@ -8,7 +7,7 @@ const Rodape = () => {
         <ul>
           <li>
             <a href="facebook.com" target="_blank">
-            <img src="../imagens/fb.png" alt="" />
+              <img src="../imagens/fb.png" alt="" />
             </a>
           </li>
           <li>
