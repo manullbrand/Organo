@@ -1,10 +1,10 @@
 .footer {
+  align-items: center;
   background: #6278f7;
   color: #fff;
-  padding: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 80px;
 }
 
 .footer ul li {

@@ -26,7 +26,7 @@ const Rodape = () => {
         <img src="/imagens/logo.png" alt="" />
       </section>
       <section>
-        <p>Developed by Manuela Brandão</p>
+        <p>Developed by Alura and Manuela Brandão</p>
       </section>
     </footer>
   );
