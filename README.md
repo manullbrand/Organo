@@ -8,5 +8,7 @@ https://github.com/manullbrand/Organo/assets/87316867/ac42899a-2228-411f-8040-43
 
 ## Creating a team to register a employee card
 
-https://github.com/manullbrand/Organo/assets/87316867/d1872ffd-6b54-43cc-92e0-023613ae936d
+https://github.com/manullbrand/Organo/assets/87316867/37b93eb3-54cc-4309-ab96-ba6c4139aaea
+
+
 
