@@ -305,10 +305,10 @@ function App() {
       />
 
       <section className="times">
-        <h1>Minha Organização</h1>
+        <h1>List of teams</h1>
         {times.map((time, indice) => (
           <Time
-            mudaCor={mudarCorDoTime}
+            mudarCor={mudarCorDoTime}
             key={indice}
             time={time}
             colaboradores={colaboradores.filter(
