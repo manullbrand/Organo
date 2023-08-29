@@ -7,11 +7,7 @@ import { v4 as uuidv4 } from "uuid";
 
 function App() {
   const [times, setTimes] = useState([
-    {
-      id: uuidv4(),
-      nome: "Programing",
-      cor: "#57C278",
-    },
+  
     {
       id: uuidv4(),
       nome: "Front-End",
